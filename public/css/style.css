@@ -1,0 +1,18 @@
+.titletop {
+  text-align: center;
+}
+.img-meme {
+  width: fit-content;
+  height: fit-content;
+}
+.ownername {
+  color: cadetblue;
+  text-decoration: underline;
+}
+.caption {
+  color: darkgray;
+}
+.ruler {
+  height: 1px;
+  text-decoration: dotted;
+}

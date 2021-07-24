@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body class="topbody">
+        <!-- Image and text -->
+    <nav class="navbar navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="https://image.shutterstock.com/image-vector/xgrunge-letter-x-vector-cross-260nw-614513531.jpg" alt="" width="20" height="30" class="d-inline-block align-top">
+        XMEME
+      </a>
+    </div>
+  </nav>
+        <div class="container-fluid">
+            <h1 class="titletop">Welcome to Xmeme</h1>
+            <form method="POST" action="/top">
+                Name <br>
+                <input type="text" name="uname" class="form-control" placeholder="Enter your Name" required> <br>
+                Caption <br>
+                <input type="text" name="caption" class="form-control" placeholder="Caption always Attracts" required> <br>
+                URL <br>
+                <input type="url" name="mmlink" class="form-control" placeholder="Give link to your Meme " required> <br>
+                <button type="submit" class="btn btn-outline-success">Submit</button>
+                <button type="reset" class="btn btn-outline-danger">Reset</button>
+            </form>
+        </div>
+        
+    </body>
+</html>
